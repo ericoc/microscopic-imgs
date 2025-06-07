@@ -21,6 +21,7 @@
             body { background-color: #323639; color: #d6d6d7; }
             a, a:link, a:visited { color: #0096FF; text-decoration: none; }
             a:active, a:hover { text-decoration: underline; }
+            a[target="_blank"]::after { margin-left: 0.25rem; content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==); filter: invert(0.5); }
             .icon-link-hover { --bs-icon-link-transform: translate3d(0, -.3rem, 0); }
         </style>
     </head>
@@ -36,7 +37,7 @@
         </header>
         <main class="border-top border-bottom border-3 border-info">
             <div class="list-group container-fluid p-5">
-                <a href="https://seas.upenn.edu/~ericoc/bee/" class="list-group-item list-group-item-action">
+                <a href="https://seas.upenn.edu/~ericoc/bee/" class="list-group-item list-group-item-action" target="_blank" title="Beatrice the (Carpenter) Bee [30 photos]">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1"><i>Beatrice</i> the (Carpenter) Bee</h5>
                         <small class="text-body-secondary">30 photos</small>
@@ -45,7 +46,7 @@
                         <i>Beatrice</i> was a female carpenter bee caught in northern <i>Philadelphia</i> in <i>May 2025</i>.
                     </small>
                 </a>
-                <a href="https://seas.upenn.edu/~ericoc/fly/" class="list-group-item list-group-item-action">
+                <a href="https://seas.upenn.edu/~ericoc/fly/" class="list-group-item list-group-item-action" target="_blank" title="Sylvester the Fly [22 photos]">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1"><i>Sylvester</i> the Fly</h5>
                         <small class="text-body-secondary">22 photos</small>
@@ -54,7 +55,7 @@
                         This fly was caught in northern <i>Philadelphia</i> in <i>May 2025</i>.
                     </small>
                 </a>
-                <a href="https://seas.upenn.edu/~ericoc/roach/" class="list-group-item list-group-item-action">
+                <a href="https://seas.upenn.edu/~ericoc/roach/" class="list-group-item list-group-item-action" target="_blank" title="Marley the Cockroach [16 photos]">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1"><i>Marley</i> the Cockroach</h5>
                         <small class="text-body-secondary">16 photos</small>
@@ -63,7 +64,7 @@
                         <i>Marley</i> was a cockroach found already-dead in north <i>Philadelphia</i> in late <i>May 2025</i>.
                     </small>
                 </a>
-                <a href="https://seas.upenn.edu/~ericoc/moss/" class="list-group-item list-group-item-action">
+                <a href="https://seas.upenn.edu/~ericoc/moss/" class="list-group-item list-group-item-action" target="_blank" title="Microscopic Moss [12 photos]">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Microscopic Moss</h5>
                         <small class="text-body-secondary">12 photos</small>
@@ -74,7 +75,7 @@
                         before being left to outgas under vacuum for an hour or two, in order to ensure that it was dry.
                     </small>
                 </a>
-                <a href="https://seas.upenn.edu/~ericoc/ticks/" class="list-group-item list-group-item-action">
+                <a href="https://seas.upenn.edu/~ericoc/ticks/" class="list-group-item list-group-item-action" target="_blank" title="Tiny Ticks [7 photos]">
                     <div class="d-flex w-100 justify-content-between">
                         <h5 class="mb-1">Tiny Ticks</h5>
                         <small class="text-body-secondary">7 photos</small>
@@ -86,18 +87,18 @@
             </div>
         </main>
         <footer class="container-fluid row p-3">
-            <span class="text-start col h5" id="thanks">
+            <h6 class="text-start col" id="ncf">
                 <i class="bi bi-balloon-heart text-danger"></i>
-                    <a class="fst-italic" href="https://www.nano.upenn.edu/resources/nanoscale-characterization/" target="_blank" title="Nanoscale Characterization Facility <https://www.nano.upenn.edu/resources/nanoscale-characterization/>">Nanoscale Characterization Facility</a>
-                    @
-                    <a class="fst-italic" href="https://www.nano.upenn.edu/" target="_blank" title="Singh Center for Nanotechnology <https://www.nano.upenn.edu/>">Singh Center for Nanotechnology</a>
-            </span>
-            <span class="text-end col" id="source" title="View Source: <https://github.com/ericoc/microscopic-imgs>">
-                <a class="font-monospace icon-link icon-link-hover" href="https://github.com/ericoc/microscopic-imgs" title="View source of this page <https://github.com/ericoc/microscopic-img>">
-                    <i class="bi bi-code-slash"></i>
-                    https://github.com/ericoc/microscopic-imgs
-                </a>
-            </span>
+                <a class="fst-italic" href="https://www.nano.upenn.edu/resources/nanoscale-characterization/" target="_blank" title="Nanoscale Characterization Facility <https://www.nano.upenn.edu/resources/nanoscale-characterization/>">Nanoscale Characterization Facility</a>
+            </h6>
+            <h6 class="text-center col" id="singh">
+                <i class="bi bi-building-fill-gear text-success"></i>
+                <a class="fst-italic" href="https://www.nano.upenn.edu/" target="_blank" title="Singh Center for Nanotechnology <https://www.nano.upenn.edu/>">Singh Center for Nanotechnology</a>
+            </h6>
+            <h6 class="text-end col" id="source">
+                <i class="bi bi-code-slash text-info"></i>
+                <a class="font-monospace" href="https://github.com/ericoc/microscopic-imgs" target="_blank" title="View source of this page <https://github.com/ericoc/microscopic-imgs>">https://github.com/ericoc/microscopic-imgs</a>
+            </h6>
         </footer>
         <script src="static/jquery-3.7.1.min.js"></script>
         <script src="static/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
