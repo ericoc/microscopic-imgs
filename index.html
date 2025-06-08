@@ -22,69 +22,86 @@
             a:active, a:hover { text-decoration: underline; }
             a[target="_blank"]::after { margin-left: 0.25rem; content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==); filter: invert(0.5); }
             .icon-link-hover { --bs-icon-link-transform: translate3d(0, -.3rem, 0); }
-            header .bi:hover { filter: opacity(25%); }
+            header .bi:hover, header img:hover { filter: opacity(50%); }
+            header img { height: 5rem; }
+            main img { height: 20rem; }
+            #btn-back-to-top { position: fixed; bottom: 20px; right: 20px; display: none; }
         </style>
     </head>
     <body>
         <header>
             <nav class="navbar navbar-dark">
-                <div class="container-fluid">
-                    <i class="h2 bi bi-flower2 text-danger"></i>
-                    <a class="h1" href="#title" id="title" title="Microscopic Images">Microscopic Images</a>
-                    <i class="h2 bi bi-bug text-success"></i>
+                <div class="row container-fluid">
+                    <div class="col text-start">
+                        <i class="h2 bi bi-flower2 text-danger"></i>
+                    </div>
+                    <div class="col text-center" title="Microscopic Images">
+                        <img src="static/icon.png" alt="Microscope Icon" id="logo">
+                        <a class="h1" href="#title" id="title">Microscopic Images</a>
+                    </div>
+                    <div class="col text-end">
+                        <i class="h2 bi bi-bug text-success"></i>
+                    </div>
                 </div>
             </nav>
         </header>
-        <main class="border-top border-bottom border-3 border-info">
+        <main class="border-top border-bottom border-3 border-primary">
             <div class="list-group container-fluid p-5">
                 <a href="https://seas.upenn.edu/~ericoc/bee/" class="list-group-item list-group-item-action" target="_blank" title="Beatrice the (Carpenter) Bee [30 photos]">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1"><i>Beatrice</i> the (Carpenter) Bee</h5>
-                        <small class="text-body-secondary badge bg-black rounded-pill">30 photos</small>
+                        <h4 class="mb-1"><i>Beatrice</i> the (Carpenter) Bee</h4>
+                        <small class="badge bg-black rounded-pill border border-warning">30 photos</small>
                     </div>
-                    <small class="text-body-secondary">
-                        <i>Beatrice</i> was a female carpenter bee caught in northern <i>Philadelphia</i> in <i>May 2025</i>.
+                    <small>
+                        <p><i>Beatrice</i> was a female carpenter bee caught in northern <i>Philadelphia</i> in <i>May 2025</i>.</p>
+                        <img class="border border-warning rounded" src="https://www.seas.upenn.edu/~ericoc/bee/static/images/portrait/portrait_annotated.png" alt="Beatrice the (Carpenter) Bee">
                     </small>
                 </a>
                 <a href="https://seas.upenn.edu/~ericoc/roach/" class="list-group-item list-group-item-action" target="_blank" title="Marley the Cockroach [16 photos]">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1"><i>Marley</i> the Cockroach</h5>
-                        <small class="text-body-secondary badge bg-black rounded-pill">16 photos</small>
+                        <h4 class="mb-1"><i>Marley</i> the Cockroach</h4>
+                        <small class="badge bg-black rounded-pill border border-danger">16 photos</small>
                     </div>
-                    <small class="text-body-secondary">
-                        <i>Marley</i> was a cockroach found already-dead in north <i>Philadelphia</i> in late <i>May 2025</i>.
+                    <small>
+                        <p><i>Marley</i> was a cockroach found already-dead in north <i>Philadelphia</i> in late <i>May 2025</i>.</p>
+                        <img class="border border-danger rounded"  src="https://www.seas.upenn.edu/~ericoc/roach/static/images/portrait_001.png" alt="Marley the Cockroach">
                     </small>
                 </a>
                 <a href="https://seas.upenn.edu/~ericoc/moss/" class="list-group-item list-group-item-action" target="_blank" title="Microscopic Moss [12 photos]">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Microscopic Moss</h5>
-                        <small class="text-body-secondary badge bg-black rounded-pill">12 photos</small>
+                        <h4 class="mb-1">Microscopic Moss</h4>
+                        <small class="badge bg-black rounded-pill border border-success">12 photos</small>
                     </div>
-                    <small class="text-body-secondary">
-                        This moss was gathered in northern <i>Philadelphia, Pennsylvania, USA</i> on the evening of <i>Tues. May 20, 2025</i>.<br>
-                        The following afternoon, on <i>Wed. May 21</i>, the moss was briefly frozen with liquid nitrogen (<span class="font-monospace">LN<sub>2</sub></span>)
-                        before being left to outgas under vacuum for an hour or two, in order to ensure that it was dry.
+                    <small>
+                        <p>This moss was gathered in northern <i>Philadelphia, Pennsylvania, USA</i> on the evening of <i>Tues. May 20, 2025</i>.</p>
+                        <p>The following afternoon, on <i>Wed. May 21</i>, the moss was briefly frozen with liquid nitrogen (<span class="font-monospace">LN<sub>2</sub></span>) before being left to outgas under vacuum for an hour or two, in order to ensure that it was dry.</p>
+                        <img class="border border-success rounded" src="https://www.seas.upenn.edu/~ericoc/moss/images/moss_001.png" alt="Microscopic Moss">
                     </small>
                 </a>
                 <a href="https://seas.upenn.edu/~ericoc/fly/" class="list-group-item list-group-item-action" target="_blank" title="Sylvester the Fly [22 photos]">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1"><i>Sylvester</i> the Fly</h5>
-                        <small class="text-body-secondary badge bg-black rounded-pill">22 photos</small>
+                        <h4 class="mb-1"><i>Sylvester</i> the Fly</h4>
+                        <small class="badge bg-black rounded-pill border border-primary-subtle">22 photos</small>
                     </div>
-                    <small class="text-body-secondary">
-                        This fly was caught in northern <i>Philadelphia</i> in <i>May 2025</i>.
+                    <small>
+                        <p>This fly was caught in northern <i>Philadelphia</i> in <i>May 2025</i>.</p>
+                        <img class="border border-primary-subtle rounded" src="https://www.seas.upenn.edu/~ericoc/fly/static/images/head_001.png" alt="Fly">
                     </small>
                 </a>
                 <a href="https://seas.upenn.edu/~ericoc/ticks/" class="list-group-item list-group-item-action" target="_blank" title="Tiny Ticks [7 photos]">
                     <div class="d-flex w-100 justify-content-between">
-                        <h5 class="mb-1">Tiny Ticks</h5>
-                        <small class="text-body-secondary badge bg-black rounded-pill">7 photos</small>
+                        <h4 class="mb-1">Tiny Ticks</h4>
+                        <small class="badge bg-black rounded-pill border border-info">7 photos</small>
                     </div>
-                    <small class="text-body-secondary">
-                        These are microscopic images taken of ticks.
+                    <small>
+                        <p>These are microscopic images taken of ticks.</p>
+                        <img class="border border-info rounded" src="https://www.seas.upenn.edu/~ericoc/ticks/images/ticks_001.png" alt="Ticks">
                     </small>
                 </a>
             </div>
+            <button type="button" class="btn btn-light btn-floating btn-lg" id="btn-back-to-top">
+                <i class="bi bi-arrow-up-circle-fill"></i>
+            </button>
         </main>
         <footer class="container-fluid row p-3">
             <div class="col h6 text-start">
@@ -112,6 +129,27 @@
                 </a>
             </div>
         </footer>
+        <script>
+            let goUpButton = document.getElementById("btn-back-to-top");
+            window.onscroll = function () {
+                scrollFunction();
+            };
+            function scrollFunction() {
+                if (
+                    document.body.scrollTop > 20 ||
+                    document.documentElement.scrollTop > 20
+                ) {
+                    goUpButton.style.display = "block";
+                } else {
+                    goUpButton.style.display = "none";
+                }
+            }
+            goUpButton.addEventListener("click", backToTop);
+            function backToTop() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
         <script src="static/jquery-3.7.1.min.js"></script>
         <script src="static/bootstrap-5.3.6-dist/js/bootstrap.bundle.min.js"></script>
     </body>
