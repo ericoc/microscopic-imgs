@@ -13,7 +13,7 @@ at the [_University of Pennsylvania_](https://www.upenn.edu/).
 - ## [_Beatrice_ the (Carpenter) Bee](https://www.seas.upenn.edu/~ericoc/bee/)
   - _Beatrice_ was a female carpenter bee caught in northern _Philadelphia_ in _May 2025_.
     - 30 photos
-      - [https://github.com/ericoc/beatrice-bee](https://github.com/ericoc/beatrice-bee)
+      - [`https://github.com/ericoc/beatrice-bee`](https://github.com/ericoc/beatrice-bee)
 
 - ## [_Marley_ the Cockroach](https://www.seas.upenn.edu/~ericoc/roach/)
   - _Marley_ was a cockroach found already-dead in northern _Philadelphia_ in late _May 2025_.
