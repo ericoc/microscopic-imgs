@@ -15,6 +15,13 @@ at the [_University of Pennsylvania_](https://www.upenn.edu/).
     - 30 photos
       - [`https://github.com/ericoc/beatrice-bee`](https://github.com/ericoc/beatrice-bee)
 
+- ## [_Juno_'s Milk Teeth](https://www.seas.upenn.edu/~ericoc/juno-milk-teeth/)
+  - _Juno_ is a "super mutt" from _Charlotte, North Carolina, USA_, and her birthday is _February 17_.
+  - She is an energetic little puppy who loves people, dogs, and belly rubs.
+  - She lost her milk (deciduous, or "baby") teeth in 2025.
+    - 9 photos
+      - [`https://github.com/ericoc/juno-milk-teeth`](https://github.com/ericoc/juno-milk-teeth)
+
 - ## [_Marley_ the Cockroach](https://www.seas.upenn.edu/~ericoc/roach/)
   - _Marley_ was a cockroach found already-dead in northern _Philadelphia_ in late _May 2025_.
     - 16 photos
@@ -25,6 +32,11 @@ at the [_University of Pennsylvania_](https://www.upenn.edu/).
   - The following afternoon, on _Wed. May 21_, the moss was briefly frozen with liquid nitrogen (LN2) before being left to outgas under vacuum for an hour or two, in order to ensure that it was dry.
     - 12 photos
       - [`https://github.com/ericoc/micro-moss`](https://github.com/ericoc/micro-moss)
+
+- ## [_Sparky_ the Firefly](https://www.seas.upenn.edu/~ericoc/sparky/)
+  - _Sparky_ was a firefly (or "lightning bug", from the Lampyridae family) caught in northern _Philadelphia, Pennsylvania, USA_ one _Summer_ evening in mid-_2025_.
+    - 12 photos
+      - [`https://github.com/ericoc/sparky-lightning-bug`](https://github.com/ericoc/sparky-lightning-bug)
 
 - ## [_Sylvester_ the Fly](https://www.seas.upenn.edu/~ericoc/fly/)
   - _Sylvester_ was a fly was caught in northern _Philadelphia_ in _May 2025_.
