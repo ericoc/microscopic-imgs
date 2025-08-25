@@ -34,9 +34,9 @@ at the [_University of Pennsylvania_](https://www.upenn.edu/).
       - [`https://github.com/ericoc/micro-moss`](https://github.com/ericoc/micro-moss)
 
 - ## [_Skeeter_ the Mosquito](https://www.seas.upenn.edu/~ericoc/mosquito/)
-  - _Skeeter_ was a mosquito carefully captured in northern _Philadelphia, Pennsylvania, USA_ in _early 2025_.
+  - _Skeeter_ was a mosquito carefully captured in northern _Philadelphia, Pennsylvania, USA_ one Summer evening in mid-2025.
     - 31 photos
-      - [`https://github.com/ericoc/sparky-lightning-bug`](https://github.com/ericoc/sparky-lightning-bug)
+      - [`https://www.seas.upenn.edu/~ericoc/mosquito/`](https://www.seas.upenn.edu/~ericoc/mosquito/)
 
 - ## [_Sparky_ the Firefly](https://www.seas.upenn.edu/~ericoc/sparky/)
   - _Sparky_ was a firefly (or "lightning bug", from the Lampyridae family) caught in northern _Philadelphia, Pennsylvania, USA_ one _Summer_ evening in mid-_2025_.
