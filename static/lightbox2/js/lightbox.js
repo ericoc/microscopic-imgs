@@ -1,4 +1,4 @@
-/*!
+ar/*!
  * Lightbox v2.11.5
  * by Lokesh Dhakar
  *
