@@ -14,7 +14,7 @@
         <meta property="og:image" content="https://www.seas.upenn.edu/~ericoc/microscopic-imgs/static/icon.png">
         <link rel="shortcut icon" href="https://www.seas.upenn.edu/~ericoc/microscopic-imgs/static/favicon.ico">
         <link rel="apple-touch-icon" href="https://www.seas.upenn.edu/~ericoc/microscopic-imgs/static/icon.png">
-        <title>Microscopic Images @ Quanta 600 FEG ESEM</title>
+        <title>🔬 Microscopic Images @ Quanta 600 FEG ESEM</title>
         <link href="static/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="static/bootstrap-icons-1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
         <link href="static/lightbox2/css/lightbox.min.css" rel="stylesheet">
@@ -24,9 +24,6 @@
             a, a:link, a:visited { color: #0096FF; text-decoration: none; }
             a:active, a:hover { text-decoration: underline; }
             a[target="_blank"]::after { margin-left: 0.25rem; content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==); filter: invert(0.5); }
-            .icon-link-hover { --bs-icon-link-transform: translate3d(0, -.3rem, 0); }
-            header .bi:hover, header img:hover { filter: opacity(50%); }
-            header img { height: 2rem; }
             #btn-back-to-top { position: fixed; bottom: 20px; right: 20px; display: none; }
         </style>
 
@@ -37,8 +34,8 @@
         <header>
             <nav class="navbar navbar-dark row m-auto text-nowrap">
                 <i class="col h2 bi bi-flower2 text-danger text-start"></i>
-                <h1 class="col text-center" title="Microscopic Images">
-                    <img src="static/icon.png" alt="Microscope Icon" id="logo">
+                <h1 class="col text-center" title="🔬 Microscopic Images">
+                    🔬
                     <a href="#title" id="title">Microscopic Images</a>
                 </h1>
                 <i class="col h2 bi bi-bug text-success text-end"></i>
@@ -46,6 +43,15 @@
         </header>
 
         <main class="container-fluid">
+
+            <p class="lead px-5 py-3">
+                These are sets of microscopic images taken
+                using the <a class="fst-italic" href="https://www.nano.upenn.edu/equipment/quanta-600-feg-esem/" id="quanta" target="_blank" title="Quanta 600 Field Emission Gun (FEG) Environmental Scanning Electron Microscope (ESEM)">Quanta 600 Field Emission Gun (FEG) Environmental Scanning Electron Microscope (ESEM)</a>
+                in the <a class="fst-italic" href="https://www.nano.upenn.edu/resources/nanoscale-characterization/" id="ncf" target="_blank" title="Nanoscale Characterization Facility (NCF)">Nanoscale Characterization Facility (NCF)</a>
+                at the <a class="fst-italic" href="https://www.nano.upenn.edu/" id="singh" target="_blank" title="Krishna P. Singh Center for Nanotechnology">Krishna P. Singh Center for Nanotechnology</a>
+                at the <a class="fst-italic" href="https://www.upenn.edu/" id="upenn" target="_blank" title="University of Pennsylvania">University of Pennsylvania</a>.
+            </p>
+
             <div class="row row-cols-1 row-cols-md-3 g-4">
 
                 <div class="col">
@@ -230,33 +236,13 @@
             </button>
         </main>
 
-        <footer>
-            <nav class="navbar navbar-dark row m-auto">
-                <div class="col h6 text-start">
-                    <a class="icon-link icon-link-hover" href="https://www.nano.upenn.edu/resources/nanoscale-characterization/" id="ncf" target="_blank" title="Nanoscale Characterization Facility <https://www.nano.upenn.edu/resources/nanoscale-characterization/>">
-                        <svg class="bi text-danger" aria-hidden="true">
-                            <use xlink:href="static/bootstrap-icons-1.13.1/bootstrap-icons.svg#balloon-heart"></use>
-                        </svg>
-                        <i>Nanoscale Characterization Facility</i>
-                    </a>
-                </div>
-                <div class="col h6 text-center">
-                    <a class="icon-link icon-link-hover" href="https://github.com/ericoc/microscopic-imgs" id="source" target="_blank" title="View source of this page <https://github.com/ericoc/microscopic-imgs>">
-                        <svg class="bi text-info" aria-hidden="true">
-                            <use xlink:href="static/bootstrap-icons-1.13.1/bootstrap-icons.svg#code-slash"></use>
-                        </svg>
-                        <code>https://github.com/ericoc/microscopic-imgs</code>
-                    </a>
-                </div>
-                <div class="col h6 text-end">
-                    <a class="icon-link icon-link-hover" href="https://www.nano.upenn.edu/" id="singh" target="_blank" title="Singh Center for Nanotechnology <https://www.nano.upenn.edu/>">
-                        <svg class="bi text-success" aria-hidden="true">
-                            <use xlink:href="static/bootstrap-icons-1.13.1/bootstrap-icons.svg#building"></use>
-                        </svg>
-                        <i>Singh Center for Nanotechnology</i>
-                    </a>
-                </div>
-            </nav>
+        <footer class="m-auto h6 text-center p-3">
+            <a class="icon-link" href="https://github.com/ericoc/microscopic-imgs" id="source" target="_blank" title="View source of this page <https://github.com/ericoc/microscopic-imgs>">
+                <svg class="bi text-info" aria-hidden="true">
+                    <use xlink:href="static/bootstrap-icons-1.13.1/bootstrap-icons.svg#code-slash"></use>
+                </svg>
+                <code>https://github.com/ericoc/microscopic-imgs</code>
+            </a>
         </footer>
 
         <script>
